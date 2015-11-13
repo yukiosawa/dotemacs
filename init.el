@@ -4,6 +4,9 @@
 ;; show line numbers
 (global-linum-mode t)
 
+;; タブの無効化
+(setq-default indent-tabs-mode nil)
+
 ;; package.el
 (package-initialize)
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
